@@ -42,7 +42,6 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/samsung/n7000" name="BeerGang/android_device_samsung_n7000" />
   <project path="device/lge/mako" name="BeerGang/android_device_lge_mako" />
-  <project path="kernel/lge/mako" name="BeerGang/lge-kernel-mako" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="jb-mr1-release" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" />
@@ -264,6 +263,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/lge/mako" name="BeerGang/lge-kernel-mako" revision="jellybean" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="jb-mr1-release" />
