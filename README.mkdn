@@ -17,9 +17,9 @@ Then to sync up:
 
 And to start building:
 
-    ./build.sh DEVICE_NAME
+    ./jb-build.sh DEVICE_NAME
 
 Or if you want to sync and build:
 
-    ./build.sh DEVICE_NAME true
+    ./jb-build.sh DEVICE_NAME true
 
