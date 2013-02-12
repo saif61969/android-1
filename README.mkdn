@@ -15,3 +15,11 @@ Then to sync up:
 
     repo sync
 
+And to start building:
+
+    ./build.sh DEVICE_NAME
+
+Or if you want to sync and build:
+
+    ./build.sh DEVICE_NAME true
+
