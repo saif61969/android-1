@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="BeerGang/android" />
+  <project path="android" name="beerbong/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
@@ -40,6 +40,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
+  <project path="device/samsung/galaxys2-common" name="BeerGang/android_device_samsung_galaxys2-common" />
   <project path="device/samsung/n7000" name="BeerGang/android_device_samsung_n7000" />
   <project path="device/lge/mako" name="BeerGang/android_device_lge_mako" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
@@ -174,7 +175,7 @@
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" />
   <project path="external/proguard" name="CyanogenMod/android_external_proguard" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" />
-  <project path="external/qemu" name="BeerGang/android_external_qemu" />
+  <project path="external/qemu" name="CyanogenMod/android_external_qemu" />
   <project path="external/qemu-pc-bios" name="CyanogenMod/android_external_qemu-pc-bios" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" />
   <project path="external/quake" name="CyanogenMod/android_external_quake" />
@@ -215,7 +216,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />
-  <project path="frameworks/base" name="BeerGang/android_frameworks_base" />
+  <project path="frameworks/base" name="beerbong/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="CyanogenMod/android_frameworks_compile_llvm-ndk-cc" />
@@ -259,12 +260,15 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="kernel/lge/mako" name="BeerGang/lge-kernel-mako" revision="jellybean" />
+  <project path="kernel/samsung/smdk4210" name="CyanogenMod/android_kernel_samsung_smdk4210" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
@@ -301,7 +305,8 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="BeerGang/android_packages_apps_Settings" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  <project path="packages/apps/Settings" name="beerbong/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -363,7 +368,7 @@
 
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="BeerGang/android_system_core" />
+  <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
@@ -375,11 +380,11 @@
   <project path="vendor/cm" name="BeerGang/android_vendor_cm">
     <copyfile src="build.sh" dest="jb-build.sh" />
   </project>
+  <project path="vendor/lge" name="BeerGang/proprietary_vendor_lge" revision="cm-10.1"/>
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  <project path="vendor/samsung" name="BeerGang/proprietary_vendor_samsung" />
-  <project path="vendor/lge" name="BeerGang/proprietary_vendor_lge" revision="cm-10.1"/>
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" />
 </manifest>
