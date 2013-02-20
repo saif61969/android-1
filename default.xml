@@ -377,7 +377,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="vendor/cm" name="BeerGang/android_vendor_cm">
+  <project path="vendor/cm" name="beerbong/android_vendor_cm">
     <copyfile src="build.sh" dest="jb-build.sh" />
   </project>
   <project path="vendor/lge" name="BeerGang/proprietary_vendor_lge" revision="cm-10.1"/>
