@@ -293,7 +293,7 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/JellyBeerWallpapers" name="BeerGang/android_packages_apps_JellyBeerWallpapers" revision="master"/>
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher2" name="BeerGang/android_packages_apps_Launcher2" />
+  <project path="packages/apps/Launcher2" name="BeerGang/android_packages_apps_Launcher2" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
