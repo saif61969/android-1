@@ -42,6 +42,7 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="device/samsung/galaxys2-common" name="BeerGang/android_device_samsung_galaxys2-common" />
   <project path="device/samsung/n7000" name="CyanogenMod/android_device_samsung_n7000" />
+    <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" />
   <project path="device/lge/mako" name="BeerGang/android_device_lge_mako" />
   <project path="device/ti/panda" name="CyanogenMod/android_device_ti_panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
