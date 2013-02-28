@@ -376,6 +376,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" />
   <project path="vendor/cm" name="BeerGang/android_vendor_cm">
     <copyfile src="build.sh" dest="jb-build.sh" />
   </project>
