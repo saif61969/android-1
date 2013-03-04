@@ -40,7 +40,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-  <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" />
+  <project path="device/samsung/galaxys2-common" name="BeerGang/android_device_samsung_galaxys2-common" />
   <project path="device/samsung/smdk4412-common" name="CyanogenMod/android_device_samsung_smdk4412-common" />
   <project path="device/samsung/n7000" name="CyanogenMod/android_device_samsung_n7000" />
   <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" />
