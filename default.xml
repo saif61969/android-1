@@ -23,7 +23,7 @@
            remote="aosp"
            sync-j="4" />
            
-  <project path="android" name="android" remote="bg" revision="toxic" />
+  <project path="android" name="android" remote="bg" revision="thunder" />
  
 
   <project path="build" name="android_build" remote="bg" revision="cm-10.1">
