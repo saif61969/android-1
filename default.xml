@@ -389,6 +389,7 @@
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" />
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" />
   <project path="vendor/elan" name="TheMuppets/proprietary_vendor_elan" />
+  <project path="vendor/imgtec" name="TheMuppets/proprietary_vendor_imgtec" />
   <project path="vendor/invensense" name="TheMuppets/proprietary_vendor_invensense" />
   <project path="vendor/nvidia" name="TheMuppets/proprietary_vendor_nvidia" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" />
